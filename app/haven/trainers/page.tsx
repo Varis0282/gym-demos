@@ -30,7 +30,7 @@ export default function Faculty() {
                   <p className="mt-3 flex items-center gap-2 text-sm font-bold text-[#8A6E6E]">
                     <Clock className="h-4 w-4 text-[#7BA05B]" /> {f.slots}
                   </p>
-                  <Link href={`${BASE}/contact`} className="mt-5 inline-block rounded-full bg-[#7BA05B] px-6 py-2.5 text-sm font-extrabold text-white shadow-md shadow-[#7BA05B]/30 hover:bg-[#2384BC]">
+                  <Link href={`${BASE}/contact#book`} className="mt-5 inline-block rounded-full bg-[#7BA05B] px-6 py-2.5 text-sm font-extrabold text-white shadow-md shadow-[#7BA05B]/30 hover:bg-[#2384BC]">
                     {t.nav.book}
                   </Link>
                 </div>

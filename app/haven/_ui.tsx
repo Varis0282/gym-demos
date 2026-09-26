@@ -61,7 +61,7 @@ export function Nav() {
           <Link href="/" className="text-xs text-[#A08F79] hover:text-[#D96C7B]">← All demos</Link>
           <LangToggle className="rounded-full border-2 border-[#7BA05B] px-3.5 py-1 text-sm font-extrabold text-[#7BA05B] hover:bg-[#7BA05B] hover:text-white" />
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="rounded-full bg-[#D96C7B] px-5 py-2.5 text-[15px] font-extrabold text-white shadow-lg shadow-[#D96C7B]/30 transition-transform hover:scale-105"
           >
             {t.nav.book}
@@ -80,7 +80,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex gap-3">
             <LangToggle className="rounded-full border-2 border-[#7BA05B] px-4 py-2 font-extrabold text-[#7BA05B]" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-[#D96C7B] px-5 py-2.5 text-center font-extrabold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-[#D96C7B] px-5 py-2.5 text-center font-extrabold text-white">
               {t.nav.book}
             </Link>
           </div>
@@ -207,7 +207,7 @@ export function CTABand() {
         <h2 className="text-3xl font-extrabold md:text-4xl">{t.sections.ctaTitle}</h2>
         <p className="mt-3 text-lg text-orange-50">{t.sections.ctaSub}</p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-white px-8 py-3.5 font-extrabold text-[#D96C7B] shadow-xl transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-white px-8 py-3.5 font-extrabold text-[#D96C7B] shadow-xl transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-white/70 px-8 py-3.5 font-extrabold text-white hover:bg-white/10">

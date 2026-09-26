@@ -40,7 +40,7 @@ export default function Results() {
             : "और सैकड़ों छोटी जीतें — पहला पुश-अप, शुगर रिपोर्ट में सुधार, बिना दर्द घुटने। पोस्टर से नहीं, मेंबर्स से पूछिए।"}
         </p>
         <div className="mt-8 pb-10 text-center">
-          <Link href={`${BASE}/contact`} className="bg-[#1E40FF] px-8 py-4 font-bold text-white transition-colors hover:bg-[#14206B]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#1E40FF] px-8 py-4 font-bold text-white transition-colors hover:bg-[#14206B]">
             {t.hero.cta1}
           </Link>
         </div>

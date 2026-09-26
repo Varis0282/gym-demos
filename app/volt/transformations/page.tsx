@@ -37,7 +37,7 @@ export default function Results() {
               ? "And hundreds more quiet wins — first push-ups, lower sugar reports, pain-free knees. Ask members, not posters."
               : "और सैकड़ों छोटी जीतें — पहला पुश-अप, शुगर रिपोर्ट में सुधार, बिना दर्द घुटने। पोस्टर से नहीं, मेंबर्स से पूछिए।"}
           </p>
-          <Link href={`${BASE}/contact`} className="mt-6 inline-block bg-[#C8FF00] px-8 py-4 font-bold uppercase tracking-wider text-black transition-colors hover:bg-[#A8D600]">
+          <Link href={`${BASE}/contact#book`} className="mt-6 inline-block bg-[#C8FF00] px-8 py-4 font-bold uppercase tracking-wider text-black transition-colors hover:bg-[#A8D600]">
             {t.hero.cta1}
           </Link>
         </div>

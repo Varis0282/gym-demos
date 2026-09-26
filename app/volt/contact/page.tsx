@@ -15,7 +15,7 @@ export default function Contact() {
       <section className="py-16">
         <div className="mx-auto grid max-w-6xl gap-px bg-[#161616] px-4 lg:grid-cols-5 lg:bg-transparent lg:gap-8">
           <div className="lg:col-span-3">
-            <BookingForm styles={bookingStyles} />
+            <div id="book" className="scroll-mt-28"><BookingForm styles={bookingStyles} /></div>
           </div>
           <div className="space-y-px bg-[#161616] lg:col-span-2 lg:space-y-5 lg:bg-transparent">
             {[

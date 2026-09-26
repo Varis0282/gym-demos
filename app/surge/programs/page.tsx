@@ -27,7 +27,7 @@ export default function Courses() {
                   <div>
                     <h3 className="text-lg font-bold text-white">{d.title}</h3>
                     <p className="mt-2 text-slate-400">{d.desc}</p>
-                    <Link href={`${BASE}/contact`} className="mt-3 inline-flex items-center gap-1.5 text-sm font-bold text-violet-300 hover:text-violet-200">
+                    <Link href={`${BASE}/contact#book`} className="mt-3 inline-flex items-center gap-1.5 text-sm font-bold text-violet-300 hover:text-violet-200">
                       {t.nav.book} <ArrowRight className="h-4 w-4" />
                     </Link>
                   </div>

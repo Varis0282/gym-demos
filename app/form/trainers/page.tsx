@@ -25,7 +25,7 @@ export default function Faculty() {
                   <p className="mt-1 text-xs uppercase tracking-[0.2em] text-neutral-400">{d.qual} · {d.exp}</p>
                   <p className="mt-5 max-w-xl leading-relaxed text-neutral-600">{d.bio}</p>
                   <p className="mt-4 text-sm font-bold">{f.slots}</p>
-                  <Link href={`${BASE}/contact`} className="mt-6 inline-block bg-[#111111] px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-[#1E40FF]">
+                  <Link href={`${BASE}/contact#book`} className="mt-6 inline-block bg-[#111111] px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-[#1E40FF]">
                     {t.nav.book}
                   </Link>
                 </div>

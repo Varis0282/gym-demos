@@ -28,7 +28,7 @@ export default function Courses() {
                   </div>
                   <p className="text-sm text-[#9CA3AF] md:col-span-5">{d.desc}</p>
                   <div className="md:col-span-2 md:pr-4 md:text-right">
-                    <Link href={`${BASE}/contact`} className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#C8FF00] hover:text-white">
+                    <Link href={`${BASE}/contact#book`} className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#C8FF00] hover:text-white">
                       {t.nav.book} <ArrowUpRight className="h-4 w-4" />
                     </Link>
                   </div>

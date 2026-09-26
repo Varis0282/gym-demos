@@ -24,7 +24,7 @@ export default function Programs() {
                 <div>
                   <h3 className="text-lg font-extrabold text-[#1F2328]">{d.title}</h3>
                   <p className="mt-2 text-slate-500">{d.desc}</p>
-                  <Link href={`${BASE}/contact`} className="mt-3 inline-block text-sm font-bold text-[#A31621] hover:underline">
+                  <Link href={`${BASE}/contact#book`} className="mt-3 inline-block text-sm font-bold text-[#A31621] hover:underline">
                     {t.nav.book} →
                   </Link>
                 </div>

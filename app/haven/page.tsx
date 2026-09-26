@@ -32,7 +32,7 @@ export default function Home() {
             <Squiggle className="mt-4" />
             <p className="mt-5 max-w-lg text-lg text-[#8A6E6E]">{t.hero.sub}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link href={`${BASE}/contact`} className="rounded-full bg-[#D96C7B] px-8 py-3.5 font-extrabold text-white shadow-xl shadow-[#D96C7B]/30 transition-transform hover:scale-105">
+              <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#D96C7B] px-8 py-3.5 font-extrabold text-white shadow-xl shadow-[#D96C7B]/30 transition-transform hover:scale-105">
                 {t.hero.cta1}
               </Link>
               <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-[#7BA05B] px-8 py-3.5 font-extrabold text-[#7BA05B] transition-colors hover:bg-[#7BA05B] hover:text-white">

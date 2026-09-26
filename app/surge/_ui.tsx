@@ -107,7 +107,7 @@ export function Nav() {
           <Link href="/" className="text-xs text-slate-400 hover:text-white">← All demos</Link>
           <LangToggle className="rounded-full border border-white/15 px-3 py-1 text-xs font-semibold text-slate-200 hover:bg-white/10" />
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="rounded-full bg-gradient-to-r from-orange-400 to-violet-400 px-5 py-2 text-sm font-bold text-[#0A0A12] shadow-lg shadow-orange-500/30 transition-all hover:shadow-orange-400/50"
           >
             {t.nav.book}
@@ -126,7 +126,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex items-center gap-3">
             <LangToggle className="rounded-full border border-white/15 px-4 py-2 text-sm font-semibold text-slate-200" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-gradient-to-r from-orange-400 to-violet-400 px-5 py-2.5 text-center font-bold text-[#0A0A12]">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-gradient-to-r from-orange-400 to-violet-400 px-5 py-2.5 text-center font-bold text-[#0A0A12]">
               {t.nav.book}
             </Link>
           </div>
@@ -236,7 +236,7 @@ export function CTABand() {
           <h2 className="text-3xl font-extrabold text-white md:text-4xl">{t.sections.ctaTitle}</h2>
           <p className="mt-3 text-slate-300">{t.sections.ctaSub}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href={`${BASE}/contact`} className="rounded-full bg-gradient-to-r from-orange-400 to-violet-400 px-8 py-3.5 font-bold text-[#0A0A12] shadow-xl shadow-orange-500/30 transition-transform hover:scale-105">
+            <Link href={`${BASE}/contact#book`} className="rounded-full bg-gradient-to-r from-orange-400 to-violet-400 px-8 py-3.5 font-bold text-[#0A0A12] shadow-xl shadow-orange-500/30 transition-transform hover:scale-105">
               {t.hero.cta1}
             </Link>
             <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border border-white/25 px-8 py-3.5 font-bold text-white transition-colors hover:bg-white/10">
